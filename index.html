@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthMed Solutions</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: #fff;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .logo img {
+      width: 200px;
+      vertical-align: middle;
+    }
+
+    .logo h1 {
+      font-size: 1.5rem;
+      display: inline-block;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+
+    .tagline {
+      font-size: 0.8rem;
+      color: #888;
+      margin-top: 4px;
+    }
+
+    .platforms {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      max-width: 900px;
+      margin-bottom: 60px;
+    }
+
+    .platforms img {
+      width: 200px;
+      vertical-align: middle;
+    }
+
+    .card {
+      flex: 1 1 300px;
+      background: #eee;
+      border-radius: 16px;
+      padding: 30px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .card.health {
+      background-color: #3e8159;
+    }
+
+    .card.med {
+      background-color: #005999;
+    }
+
+    .card h2 {
+      font-size: 1.1rem;
+      margin: 20px 0;
+      line-height: 1.3;
+    }
+
+    .btn {
+      background: white;
+      color: #333;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 0.85rem;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    .footer img {
+      width: 30px;
+      vertical-align: middle;
+    }
+
+    .socials {
+      margin: 15px 0;
+    }
+
+    .socials i {
+      font-size: 20px;
+      margin: 0 10px;
+      color: #000;
+    }
+
+    @media (max-width: 600px) {
+      .card h2 {
+        font-size: 1rem;
+      }
+    }
+  </style>
+
+  <!-- Font Awesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <div class="logo">
+    <img src="healthmed.png" alt="Logo">
+  </div>
+
+  <div class="platforms">
+    <div class="card health">
+      <img src="healthsol.png" alt="Icon" />
+      <h2>Notre plateforme pour<br>le consommable médical.</h2>
+      <a class="btn" href="https://healthsolutions.ma/">DÉCOUVREZ MAINTENANT</a>
+    </div>
+    <div class="card med">
+      <img src="medsol.png" alt="Icon" />
+      <h2>Notre plateforme<br>pour le dispositif médical.</h2>
+      <a class="btn" href="https://medsolutions.ma/">DÉCOUVREZ MAINTENANT</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="logo">
+      <img src="healthmed_icon.png" alt="Logo" />
+      <br>
+    </div>
+    <div>© 2025 HEALTHMEDSOLUTIONS SARL TOUS DROITS RÉSERVÉS.</div>
+  </div>
+
+</body>
+</html>
